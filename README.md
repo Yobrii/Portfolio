@@ -15,17 +15,6 @@ This repository contains the source code for Brian Murithi's professional portfo
 - CSS (via style.css)
 - Basic form handling
 
-## Project Structure
-```
-portfolio/
-├── index.html          # Main website file
-├── style.css           # Stylesheet
-├── assets/             # Contains all media assets
-│   ├── Brianm.webp     # Profile photo
-│   ├── jkuatlogo.png   # JKUAT logo
-│   └── PLP.png         # PLP Academy logo
-└── README.md           # This documentation file
-```
 
 ## Accessibility Features
 - ARIA labels for navigation and sections

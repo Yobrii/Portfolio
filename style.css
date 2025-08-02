@@ -273,3 +273,62 @@ input:focus, textarea:focus {
         padding: 0.5rem 0.75rem;
     }
 }
+/* Projects Section */
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+/* Project Card Images */
+.project-card img {
+  /* Basic Shape */
+  width: 100%;
+  height: 200px;                  /* Fixed rectangular height */
+  object-fit: cover;              /* Prevents distortion */
+  border-radius: 12px;            /* Rounded corners */
+  border: 1px solid #f0f0f0;      /* Light border */
+
+  /* Hover Effects */
+  transition: 
+    transform 0.3s ease, 
+    box-shadow 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  border-radius: 6px;
+}
+/* CV Section Layout */
+#cv {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+}
+
+/* CV Image Styling */
+.cv-thumbnail {
+  width: 120px;       /* Match your icon width */
+  height: 160px;      /* Rectangular proportion */
+  object-fit: cover;  /* Prevents image distortion */
+  border-radius: 8px; /* Slightly rounded corners */
+  border: 1px solid #e0e0e0; /* Subtle border */
+}
+/* Optional: Add hover effect */
+.cv-thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+/* Download Options */
+.cv-download {
+  flex: 1;            /* Takes remaining space */
+}
+
+/* Download Buttons (keep your existing styles) */
+.download-btn {
+  /* Your existing button styles */
+}
